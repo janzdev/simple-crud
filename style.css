@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.main .create-main {
+  height: 40vh;
+  width: 20%;
+}
+.main .create-main h3 {
+  text-align: center;
+  margin-top: 10px;
+}
+.main .create-main input {
+  width: 100%;
+  padding: 10px;
+  margin: 0 10px 15px 10px;
+}
+.main .create-main label {
+  margin-left: 10px;
+}
+.main .create-main .create-btn {
+  background: rgb(34, 180, 238);
+  border: none;
+  color: #fff;
+  transition: background 0.5s ease;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main .create-main .create-btn:hover {
+  background: rgb(24, 123, 161);
+}
+
+.main .read-main {
+  width: 50%;
+  text-align: center;
+}
+.main .read-main th,
+.main .read-main,
+.main .read-main td {
+  border: 1px solid black;
+}
+
+
+.main .read-main tr td:nth-child(4) {
+  display: flex;
+  justify-content: space-evenly;
+}
+.main .read-main tr td input {
+  padding: 5px 20px;
+}
+.main .read-main tr td form .edit {
+  background: rgb(35, 252, 89);
+  border: none;
+  color: #fff;
+  transition: background 0.5s ease;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main .read-main tr td form .edit:hover {
+  background: rgb(28, 136, 18);
+}
+.main .read-main tr td form .delete {
+  background: rgb(252, 35, 35);
+  border: none;
+  color: #fff;
+  transition: background 0.5s ease;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.main .read-main tr td form .delete:hover {
+  background: rgb(167, 21, 21);
+}
